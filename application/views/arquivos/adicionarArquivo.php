@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="<?= base_url(); ?>assets/js/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" />
-<script type="text/javascript" src="<?= base_url() ?>assets/js/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
+<link rel="stylesheet" href="<?= base_url('assets/js/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css'); ?>" />
+<script type="text/javascript" src="<?= base_url('assets/js/jquery-ui/js/jquery-ui-1.9.2.custom.js') ?>"></script>
 
 <div class="row-fluid" style="margin-top:0">
     <div class="span12">
@@ -59,7 +59,7 @@
     </div>
 </div>
 
-<script src="<?= base_url() ?>assets/js/jquery.validate.js"></script>
+<script src="<?= base_url('assets/js/jquery.validate.js') ?>"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $('#formArquivo').validate({
